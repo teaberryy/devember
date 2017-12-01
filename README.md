@@ -1,4 +1,4 @@
-# Devember Projects Repo
+# Devember/AoC Projects Repo
 
 Main repo to host all barely functional programs created for [Devember](https://devember.org/)
 This is also home to everythin I'll be doing for [AoC](http://adventofcode.com/)
