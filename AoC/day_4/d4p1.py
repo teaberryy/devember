@@ -1,3 +1,6 @@
+#### Big thanks to Christian Witts for debugging my code!
+#### https://zatech.slack.com/messages/@U0CT5B4UD
+
 # This challenge seems relatively easy
 # It's similar to the one from day 2, so sorting everything will be both
 # inefficient and familiar :D
@@ -22,7 +25,7 @@ for line in input_lines:
 for line in input_lines:
     notepad = []
     for word in input_words[line]:  # <-- Here we save an extra variable
-        if word in notepad: invalid_lines +=1; print('Duplicate found: '+ word)
+        if word in notepad: invalid_lines +=1; break
         else:   notepad.append(word)
 
 total_lines = len(input_lines)
